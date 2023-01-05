@@ -1,3 +1,20 @@
-.h1 {
+h1 {
     color: blue;
+}
+h3 {
+    color: #784569;
+}
+
+.InlineDemo span {
+    background-color: #256821;
+    padding: 20px;
+    margin: 20px;
+}
+.inlineBlock span {
+    background-color: #365829;
+    padding: 10px;
+    margin: 20px;
+}
+.displayNone {
+    display: none;
 }
