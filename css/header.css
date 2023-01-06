@@ -1,33 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .container {
     width: 85%;
     height: 100px;
     border: 5px solid black;
-    margin:  0 auto;
+    margin: 0 auto;
 }
+
 .logo {
-    width: 20%;
+    width: 10%;
     height: 100%;
     /* border: 2px solid rebeccapurple; */
     float: left;
 }
+
 .logo img {
     height: 100%;
     width: 100%;
 }
+
 .list {
     width: 80%;
     height: 100%;
     /* border: 2px solid blue; */
     float: right;
 }
+
 .list ul {
-    float: right;
+    text-align: right;
 }
+
 .list a {
     /* background-color: #235841; */
     color: black;
@@ -35,4 +41,39 @@
     margin: 15px;
     display: inline-block;
     text-decoration: none;
+}
+
+.imgDiv {
+    width: 85%;
+    height: 500px;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+}
+
+.imgDiv img {
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 10px;
+}
+
+h1 {
+margin-top: 15px;}
+
+.ourbusiness {
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+}
+.bimg {
+    width: 48%;
+    height: 300px;
+    float: left;
+    margin: 20px 20px 0 0;
+}
+.bimg img {
+    width: 100%;
+    height: 100%;
 }
