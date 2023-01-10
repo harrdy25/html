@@ -48,13 +48,16 @@
     right: 20px;
     top: 20px;
     color: red;
+    font-size: 25px;
 }
 
 .content {
-    width: 100%;
+    width: 80%;
     height: 750px;
-    left: 90px;
+    /* left: 90px; */
+    margin: 0 auto;
     position: relative;
+    margin-top: 15px;
    /* border: 3px solid rgb(255, 5, 5); */
 
 }
@@ -64,7 +67,7 @@
     height: 300px;
     /* border: 3px solid rgb(64, 255, 5); */
     float: left;
-    margin: 25px;
+    margin: 10px;
     position: relative;
 
 }
@@ -116,5 +119,12 @@
 .uparrow {
     position: fixed;
     bottom: 10px;
-    right: 150px
+    right: 150px;
 }
+.ldata {
+    width: 80%;
+    height: 750px;
+    margin: 0 auto;
+    clear: both;
+}
+
