@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-image: url(../image/PINK.jpeg);
+    background-position: center top; */
+    background-color: rgb(223, 218, 211);
+}
+
+.container {
+    width: 75%;
+    height: 92vh;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: -3px -1px 23px 1px rgb(0 0 0 / 40%);
+    position: relative;
+    overflow: hidden;
+}
+
+.databox {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    float: left;
+    margin-top: 50px;
+}
+.databox h1 {
+    font-size: 50px;
+    margin-top: 40px;
+    text-shadow: 2px 2px 2px rgb(0,0,0,0.4);
+}
+.databox p {
+    font-size: 30px;
+    margin: 30px;
+}
+.databox a {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px;
+    display: inline-block;
+    margin: 10px;
+}
+.databox i {
+    font-size: 40px;
+}
+.databox input {
+    padding: 15px;
+    background-color: #ebd5eb;
+    margin: 20px;
+    width: 350px;
+    border: none;
+}
+.databox button {
+    background-color: rgb(188, 11, 61);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: none;
+    color: #ffffff;
+}
+.databox b {
+    color: brown;
+}
+
+.logo {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    float: left;
+    background-image: url(../image/llogo);
+    background-position: center right;
+    position: absolute;
+    background-size: cover;
+    left: 50%;
+    top: -5.6%;
+}
