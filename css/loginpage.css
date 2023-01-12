@@ -3,20 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'Caviar-Dreams';
+    src: url(../font/Caviar-Dreams/CaviarDreams.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Caviar-Dreams';
+    src: url(../font/Caviar-Dreams/Caviar_Dreams_Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
     /* background-image: url(../image/PINK.jpeg);
     background-position: center top; */
     background-color: rgb(223, 218, 211);
+    font-family: 'Caviar-Dreams';
 }
 
 .container {
     width: 75%;
     height: 92vh;
-    /* border: 2px solid black; */
     border-radius: 20px;
     margin: 40px auto;
     background-color: #fff;
-    box-shadow: -3px -1px 23px 1px rgb(0 0 0 / 40%);
+    box-shadow: -4px 5px 12px 1px rgb(0 0 0 / 40%);
     position: relative;
     overflow: hidden;
 }
@@ -24,51 +39,72 @@ body {
 .databox {
     width: 50%;
     height: 100%;
-    /* border: 2px solid red; */
-    border-radius: 20px;
     float: left;
-    margin-top: 50px;
+    text-align: center;
+    padding: 60px;
 }
+
 .databox h1 {
     font-size: 50px;
-    margin-top: 40px;
-    text-shadow: 2px 2px 2px rgb(0,0,0,0.4);
+    /* text-shadow: 2px 2px 2px rgb(0,0,0,0.4); */
+    font-family: 'Caviar-Dreams';
+    color: brown;
+    margin-bottom: 10px;
 }
-.databox p {
-    font-size: 30px;
-    margin: 30px;
+
+.socialAuth {
+    padding: 10px;
 }
-.databox a {
-    width: 60px;
-    height: 60px;
-    border: 1px solid black;
+
+.socialAuth p {
+    font-size: 20px;
+    margin: 5px;
+    color: gray;
+}
+
+.socialAuth a {
+    width: 40px;
+    height: 40px;
+    border: 2px solid brown;
     border-radius: 50%;
-    padding: 8px;
+    padding: 8.5px;
     display: inline-block;
+    color: brown;
     margin: 10px;
+    transition: 0.5s;
 }
-.databox i {
-    font-size: 40px;
+
+.socialAuth a:hover {
+    color: #fff;
+    background-color: brown;
+}
+
+.socialAuth .msg {
+    margin-top: 20px;
 }
 .databox input {
+    width: 65%;
+    height: 40px;
     padding: 15px;
     background-color: #ebd5eb;
-    margin: 20px;
-    width: 350px;
     border: none;
+    display: block;
+    margin: 20px auto;
 }
-.databox button {
-    background-color: rgb(188, 11, 61);
-    font-size: 25px;
-    font-weight: bold;
-    padding: 5px 30px;
+#form a {
+    margin-top: 25px;
+    display: block;
+    text-decoration: none;
+}
+#form button {
+    background-color: brown;
+    border: none;
+    padding: 10px 25px;
     border-radius: 30px;
-    margin-top: 20px;
-    border: none;
-    color: #ffffff;
-}
-.databox b {
-    color: brown;
+    margin: 50px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
 }
 
 .logo {
