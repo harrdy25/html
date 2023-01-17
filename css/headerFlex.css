@@ -75,3 +75,6 @@ h1 {
     align-content: space-around;
     flex-wrap: wrap;
 }
+.Basis {
+    flex: 0 0 300px;
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+   max-width: 1200px;
+   margin: 40px auto;
+}
+
+.content {
+    display: flex;
+}
+.container h1 {
+    font-size: 2em;
+}
+
+.container p {
+    font-size: 20px;
+    margin: 30px 0;
+}
+.content img {
+    width: 80px;
+}
+.block {
+    gap: 90px 0px;
+    flex: 0 0 400px;
+}
+.block h4 {
+    font-size: 18px;
+    margin-top: 14px;
+}
+.block p {
+    margin-top: 16px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
