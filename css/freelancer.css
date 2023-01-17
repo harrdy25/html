@@ -39,4 +39,9 @@ body {
     line-height: 30px;
     font-size: 18px;
 }
-
+.content1 {
+    margin: 0 auto;
+}
+.content1 img {
+    width: 500px;
+}
