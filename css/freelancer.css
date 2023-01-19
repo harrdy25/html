@@ -8,23 +8,61 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#destop {
+    position: relative;
+}
+#destop button {
+    background-color: #D90082;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 12px 24px;
+    border-radius: 3px;
+    margin-top: 20px;
+
+}
+
+#destop img {
+    margin-bottom: 60px;
+}
+
+.destopText {
+    position: absolute;
+    align-self: center;
+    color: #fff;
+    top: 200px;
+    width: 400px;
+}
+
+
+.button-freelancer {
+    display: flex;
+    position: absolute;
+    bottom: 62px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0px auto;
 }
 
-.content {
-    display: flex;
-}
-
 .container h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
+    font-size: 38px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.destopText h2 {
+    font-size: 100px;
 }
 
 .container p {
-    font-size: 20px;
-    margin: 20px 0;
+    margin: 30px 0;
+}
+
+.content {
+    display: flex;
+    column-gap: 20px;
 }
 
 .content img {
@@ -33,7 +71,7 @@ body {
 
 .block {
     gap: 90px 0px;
-    flex: 0 0 400px;
+    flex: 0 0 390px;
 }
 
 .container h4 {
@@ -46,16 +84,99 @@ body {
     line-height: 30px;
     font-size: 18px;
 }
+
 hr {
     width: 90%;
     margin: 100px auto;
-    height: 1px;
+    height: 0.8px;
     border: none;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 
 .work-Detail button {
+    background-color: #D90082;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 12px 24px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.work-Detail {
+    display: flex;
+}
+
+.work-img {
+    flex-basis: 50%;
+}
+
+.work-img img {
+    width: 500px;
+}
+
+.work-data {
+    flex-basis: 50%;
+}
+
+.work-data p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.content2 {
+    display: flex;
+}
+
+.verifybox {
+    flex-basis: 50%;
+}
+
+.verifybox p {
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.newbox {
+    display: flex;
+    column-gap: 20px;
+}
+
+.chat {
+    flex-basis: 50%;
+}
+
+.chat img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.chat p {
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.contact-img {
+    flex-basis: 50%;
+}
+
+.contact-img img {
+    width: 500px;
+}
+
+.waitingsection {
+    height: 300px;
+    width: 100%;
+    background-color: #1F2836;
+    color: #FFF;
+    padding: 55px;
+    align-self: center;
+}
+
+.waitingsection button {
     background-color: #D90082;
     border: none;
     font-size: 20px;
@@ -65,52 +186,54 @@ hr {
     border-radius: 3px;
     margin-top: 30px;
 }
-.work-Detail {
-    display: flex;
-}
-.work-img {
-    flex-basis: 50%;
-}
-.work-img img {
-    width: 500px;
-}
-.work-data{
-    flex-basis: 50%;
-}
-.work-data p{
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 16px;
-}
-.content2 {
-    display: flex;
-}
-.verifybox {
-    flex-basis: 50%;
-}
-.verifybox p {
-    margin: 30px 0;
-    font-size: 20px;
-}
-.newbox {
-    display: flex;
-    column-gap: 20px;
-}
-.chat {
-    flex-basis: 50%;
-}
-.chat img {
-    width: 80px;
-    margin-bottom: 10px;
-}
-.chat p {
-    font-size: 18px;
-    margin-top: 10px;
-}
-.contact-img {
-    flex-basis: 50%;
-}
-.contact-img img{
-    width: 500px;
+
+#waiting,
+#additional {
+    margin: 70px 0;
 }
 
+#convinced .container p {
+    font-size: 24px;
+}
+
+.design {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    margin: 20px 0;
+}
+
+.design .service h2 {
+    font-size: 24px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+
+#convinced button {
+    background-color: #D90082;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 14px 24px;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+.linksdata {
+    column-gap: 100px;
+}
+
+.links {
+    column-gap: 50px;
+    display: flex;
+}
+
+.links a {
+    font-size: 22px;
+    color: #FFF;
+    margin: 10px 0;
+}
