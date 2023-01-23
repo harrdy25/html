@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.elemets p::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.elemets p::first-line {
+    font-weight: bold;
+}
+
+.elemets h1+p::first-line {
+    color: brown;
+}
+
+.elemets h1::after {
+    content: '*';
+}
+
+.elemets h1::before {
+    content: '+';
+}
+
+.customlist ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.customlist ul li::before {
+    content: '*';
+    background-color: red;
+    padding: 3px 3px;
+    margin: 0 10px;
+}
+
+.customlisticon ul{
+    position: relative;
+}
+
+.customlisticon ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.customlisticon ul li:first-child::before {
+    content: '';
+    background-image: url(../image/home.png);
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background-size: 100%;
+}
+.customlisticon ul li:nth-child(2)::before {
+    content: '';
+    background-image: url(../image/product.png);
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 20;
+    left: 0px;
+    background-size: 100%;
+}
+.customlisticon ul li:nth-child(3)::before {
+    content: '';
+    background-image: url(../image/contact.png);
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 20;
+    left: 0px;
+    background-size: 100%;
+}
+.customlisticon ul li:nth-child(4)::before {
+    content: '';
+    background-image: url(../image/about.png);
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 20;
+    left: 0px;
+    background-size: 100%;
+}
+
+.short ul li{
+    position: relative;
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    font-weight: bold;
+
+}
+.short ul li::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    left: -22px;
+}
+
+.short ul li:first-child::before {
+    background-image: url(../image/home.png);
+    background-size: 100%;
+}
+.short ul li:nth-child(2)::before {
+    background-image: url(../image/product.png);
+    background-size: 100%;
+}
+.short ul li:nth-child(3)::before {
+    background-image: url(../image/contact.png);
+    background-size: 100%;
+}
+.short ul li:nth-child(4)::before {
+    background-image: url(../image/about.png);
+    background-size: 100%;
+}

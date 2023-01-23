@@ -19,9 +19,9 @@ body {
     column-gap: 30px;
 }
 
-.custom h2 {
+.custom h3 {
     font-size: 34px;
-    font-weight: 600;
+    font-weight: 400;
     margin-top: 40px;
 }
 
@@ -33,13 +33,14 @@ hr {
     margin: 20px 0;
 }
 
-.custom p {
-    font-size: 22px;
+.custom .block1 p {
+    font-size: 20px;
     margin-top: 20px;
+    line-height: 25px;
 }
 
 .block1 {
-    flex-basis: 60%;
+    flex-basis: 50%;
 }
 .block2 {
     flex-basis: 40%;
@@ -62,8 +63,8 @@ hr {
     box-shadow: 0px 2px 15px -2px rgba(210, 210, 210, 0.871) 
 }
 .service img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 .service .box h3 {
     font-size: 18px;
@@ -72,6 +73,7 @@ hr {
 .service .box p {
     font-size: 17px;
     margin: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     line-height: 25px;
+    color: gray;
 }
