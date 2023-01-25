@@ -7,21 +7,24 @@
 .container {
     max-width: 1400px;
     margin: 20px auto;
-
 }
+
 h2 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     margin: 40px;
 }
+
 .block {
     margin: 0 auto;
     height: 300px;
     width: 300px;
     background-color: yellow;
+    perspective: 1000px;
 
 }
+
 .block img {
     height: 100%;
     width: 100%;
@@ -29,20 +32,27 @@ h2 {
     background-position: center center;
     transition: 1s;
 }
+
 .Scale img:hover {
     transform: scale(1.2);
 }
+
 .ScaleX img:hover {
     transform: scaleX(1.2);
 }
+
 .ScaleY img:hover {
     transform: scaleY(1.2);
 }
+
 .Rotate img:hover {
-    transform: rotate(360deg);
+    transform: rotate(60deg);
 }
+
 .Skew img:hover {
-    transform: skew(20deg);
+    transform: skew(20deg, 20deg);
 }
+
 .Metrix img:hover {
-transform: matrix(1, -0.3, 0, 1, 0, 0);}
+    transform: matrix(1.2, -0.3, 0, 1.2, 0, 0);
+}
