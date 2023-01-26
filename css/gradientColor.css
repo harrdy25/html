@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block {
+    width: 100vw;
+    height: 100vh;
+    margin: 30px;
+}
+.gradient {
+    background: linear-gradient(orange, white, green);
+}
+.gradient1 {
+    background: linear-gradient(to bottom right, orange, green);
+}
+.gradient2 {
+    background: linear-gradient(180deg, orange, green);
+}
+
