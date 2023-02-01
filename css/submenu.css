@@ -43,7 +43,8 @@ header nav ul li a {
     color: black
 }
 
-header nav ul li a:hover, .fa-stack {
+header nav ul li a:hover,
+.fa-stack {
     background-color: #000;
     color: #fff;
 }
@@ -86,6 +87,26 @@ header nav ul>i {
     display: none !important;
 }
 
+header nav ul li a i {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+header nav ul>li:hover>a i {
+    transform: rotate(90deg);
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+header nav li:hover>a,
+header nav li a.active {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
+
+
 @media screen and (max-width: 850px) {
     header nav>ul {
         position: absolute;
@@ -123,7 +144,7 @@ header nav ul>i {
         display: block;
     }
 
-    header nav ul i {
+    header nav ul>i {
         font-size: 20px;
         padding: 15px;
         display: inline-block !important;
@@ -134,11 +155,25 @@ header nav ul>i {
 
     header nav i {
         font-size: 20px;
-        padding: 15px 0;
+        /* padding: 15px 0; */
         display: inline-block !important;
     }
 
     .slidemenu {
         right: 0%;
     }
+
+    header nav ul li:hover a i {
+        transform: rotate(90deg);
+        font-size: 18px;
+        margin-left: 8px;
+    }
+
+    header nav ul li ul li:hover a i {
+        transform: rotate(90deg);
+        font-size: 18px;
+        margin-left: 8px;
+    }
+
+
 }
