@@ -38,27 +38,70 @@ header nav ul li a {
     color: black
 }
 
-header nav > ul > li > a:hover {
+header nav>ul>li>a:hover {
     background-color: #000;
     color: #fff;
 }
 
-.megamenu ul {
+.megamenu {
+    position: absolute;
+    top: 60px;
+    left: 25%;
+    background-color: darkgray;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    justify-items: center;
+    transition: all 1s;
+}
+
+.megamenu h3 {
+    padding: 10px;
+}
+
+.megamenu li a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.megamenu li {
+    flex-basis: 25%;
+    position: relative;
+}
+
+.megamenu li::after {
+    content: '';
+    width: 1px;
+    height: 78%;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    background-color: gray;
+}
+
+.megamenu li:last-child::after {
+    content: '';
+    display: none;
+}
+header nav ul li:hover .megamenu{
+    display: inline-block;
     position: absolute;
     top: 60px;
     left: 25%;
     background-color: darkgray;
     width: 70%;
     display: flex;
-    flex-basis: 20%;
     justify-content: space-between;
-    /* display: none; */
+    column-gap: 20px;
 }
-.megamenu ul h3{
+.megamenu h3:hover {
     padding: 10px;
+    background-color: #000;
+    color: #fff;
 }
-
-.megamenu ul li a{
+.megamenu li a:hover {
     display: block;
     padding: 10px 20px;
+    font-weight: bold;
 }

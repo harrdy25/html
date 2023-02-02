@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slick Slide</title>
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/slickSlide.css">
+</head>
+
+<body>
+    <div class="slickslide">
+        <div class="slide">
+            <img src="./image/n1" alt="">
+        </div>
+        <div class="slide">
+            <img src="./image/n2" alt="">
+        </div>
+        <div class="slide">
+            <img src="./image/n3" alt="">
+        </div>
+        <div class="slide">
+            <img src="./image/n4" alt="">
+        </div>
+        <div class="slide">
+            <img src="./image/h3" alt="">
+        </div>
+        <div class="slide">
+            <img src="./image/h4" alt="">
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./js/slick.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        // $('.slickslide').slick();
+
+        // $('.slickslide').slick({
+        //     infinite: true,
+        //     slidesToShow: 2,
+        //     slidesToScroll: 2
+        // });
+
+        // $('.slickslide').slick({
+        //     dots: true,
+        //     infinite: true,
+        //     speed: 300,
+        //     slidesToShow: 1,
+        //     centerMode: true,
+        //     variableWidth: true
+        // });
+
+        // $('.slickslide').slick({
+        //     slidesToShow: 1,
+        //     slidesToScroll: 1,
+        //     autoplay: true,
+        //     autoplaySpeed: 1000,
+        // });
+
+        $('.slickslide').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear',
+            prevArrow:'<i class="slick-prev fa-solid fa-angles-left"></i>',
+            nextArrow:'<i class="slick-next fa-solid fa-chevrons-right"></i>'
+        });
+
+
+
+    </script>
+</body>
+
+</html>
