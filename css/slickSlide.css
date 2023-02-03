@@ -81,7 +81,7 @@ body {
  .slickslidebox .slick-next{
      position: absolute;
      top: 50%;
-     right: 15px;
+     right: 5px;
      background-color:rgba(0,0,0, 0.3);
      border-radius: 50%;
      line-height: 55px;
@@ -94,7 +94,7 @@ body {
  .slickslidebox .slick-prev{
      position: absolute;
      top: 50%;
-     left: 18px;
+     left: 5px;
      background-color: rgba(0,0,0, 0.3);
      border-radius: 50%;
      z-index: 999;
