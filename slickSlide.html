@@ -8,12 +8,35 @@
     <title>slick Slide</title>
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/slick-theme.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/slickSlide.css">
 </head>
 
 <body>
     <div class="slickslide">
+        <div class="slide">
+            <img src="./image/n1" alt="">
+        </div>
+        <div class="slide">
+            <img src="./image/n2" alt="">
+        </div>
+        <div class="slide">
+            <img src="./image/n3" alt="">
+        </div>
+        <div class="slide">
+            <img src="./image/n4" alt="">
+        </div>
+        <div class="slide">
+            <img src="./image/h3" alt="">
+        </div>
+        <div class="slide">
+            <img src="./image/h4" alt="">
+        </div>
+    </div>
+
+    <div class="slickslidebox">
         <div class="slide">
             <img src="./image/n1" alt="">
         </div>
@@ -67,10 +90,47 @@
             speed: 500,
             fade: true,
             cssEase: 'linear',
-            prevArrow:'<i class="slick-prev fa-solid fa-angles-left"></i>',
-            nextArrow:'<i class="slick-next fa-solid fa-chevrons-right"></i>'
+            prevArrow: '<i class="slick-prev fa-solid fa-angles-left"></i>',
+            nextArrow: '<i class="slick-next fa-solid fa-chevrons-right"></i>'
         });
 
+        $('.slickslidebox').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ],
+            prevArrow: '<i class="slick-prev fa-solid fa-angles-left"></i>',
+            nextArrow: '<i class="slick-next fa-solid fa-chevrons-right"></i>'
+        })
 
 
     </script>
